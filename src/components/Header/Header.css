@@ -5,6 +5,7 @@
    display: flex;
    align-items: center;
    color: white;
+   z-index: 2000;
    background-color: rgba(94, 63, 76, 0.918);
    top: 0;
    position: sticky;
@@ -28,14 +29,14 @@
 .header__right > a >h4{
    font-size: 18px;
    cursor: pointer;
-   transition: transform 200ms ease-in-out;
+   transition: transform 200ms ease-out;
    font-family: "crimson text", serif;
-   padding: 20px o;
+   padding: 20px 0;
    letter-spacing: 1px;
 }
 .header__right > a >h4:hover{
    transform: scale(1.09);
-   background: rgb(27, 18, 1);
+   background-color: #f64c08;
    color: white;
    padding: 5px 20px;
    border-radius: 2px;
@@ -44,10 +45,10 @@
    font-size: 18px;
    cursor: pointer;
 }
-.header__rightButton{
+.header__right--semiactive{
    background-color: orangered;
    color: white;
-   padding: 5px 20px;
+   padding: 5px 20px !important;
    border-radius: 2px;
    cursor: pointer;
 }
