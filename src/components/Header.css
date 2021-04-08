@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital@0;1&display=swap');
+
+.header{
+   display: flex;
+   align-items: center;
+   color: white;
+   background-color: black;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600display=swap');
+
+.Projectcontainer {
+   display: flex;
+   flex-direction: column;
+   color: wheat;
+   justify-content: center;
+   margin: 200px 0;
+   align-items: center;
+}
+
+.Projectcontainer >h1{
+   padding-bottom: 15px;
+}
+
+.Projectcontainer > p{
+   padding-bottom: 20px;
+}
+
+.Projectcontainer__projects{
+   display: flex;
+   width: 100vw;
+   margin-top: 5px;
+   flex-wrap: wrap;
+}
+
